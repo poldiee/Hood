@@ -9,7 +9,7 @@ class NeighbourHood(models.Model):
     name = models.CharField(max_length=50)
     location = models.CharField(max_length=60)
     admin = models.ForeignKey("Profile", on_delete=models.CASCADE, related_name='hood')
-    hood_logo = models.ImageField(upload_to='images/')
+    hood_logo = models.ImageField(upload_to='images/', null=True)
     description = models.TextField()
 
     def __str__(self):
