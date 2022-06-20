@@ -45,6 +45,8 @@ INSTALLED_APPS = [
     'hoodwatch'
 ]
 
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
 MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.security.SecurityMiddleware',
@@ -138,5 +140,10 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
+
+UPLOADCARE = {
+    'pub_key': 'b1095dbfe67dab73e31d',
+    'secret': 'f9472ff366183cfbc930',
+}
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
