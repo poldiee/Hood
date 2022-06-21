@@ -1,21 +1,19 @@
-# HomeWatch
-# project-awwards
+# HoodWatch
+
 
 >[David Njagi](https://github.com/poldiee)  
   
 # Description  
-hood watch a neighborhood app where a user must signup first, be able to join a hood owned by the hood admin, and once you 
+hood watch is a neighborhood app where a user must signup first, be able to join a hood owned by the hood admin, and once you 
 join a hood, one can see businesses and posts in only that wood they belong to. 
 ##  Live Link  
- Click [View Site]()  to visit the site
+ Click [View Site](https://hoodwatch123.herokuapp.com/)  to visit the site
 
 ## Screenshots 
 ###### Home page
 
 <img src="">
 
- ###### Rating of a post
- <img src=""> 
 
 
 
